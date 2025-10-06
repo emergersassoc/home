@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wartungsarbeiten | EMERGERS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* Definieren der Schriftart für das Logo (Times New Roman) */
+        .font-logo {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen text-center p-4">
+
+    <div class="animate-fadeIn">
+        <!-- Überschrift: Wartungsarbeiten -->
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-[#0D2A4C]">Wartungsarbeiten</h1>
+        
+        <!-- Haupttext -->
+        <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+            Die Website wird aktuell überarbeitet. <br>
+            Wir sind bald wieder live.
+        </p>
+        
+        <!-- EMERGERS Logo (größer und in Times New Roman) -->
+        <p class="text-4xl md:text-5xl text-gray-800 font-logo mt-10">
+            EMERGERS
+        </p>
+    </div>
+
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+    </style>
+
+</body>
+</html>
